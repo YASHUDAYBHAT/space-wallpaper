@@ -1,0 +1,60 @@
+{
+  "appName": { 
+    "message": "3D-Weltraum-Hintergrund" 
+  },
+  "appDescription": { 
+    "message": "Zeigt ein 3D-Live-Weltraum-Hintergrundbild mit einer Suchleiste, die Ihre Standardsuchmaschine verwendet." 
+  },
+  "actionTitle": { 
+    "message": "Weltraum-Hintergrund" 
+  },
+
+  "welcomeTitle": { 
+    "message": "Willkommen beim 3D-Weltraum-Hintergrund" 
+  },
+  "welcomeDescription": { 
+    "message": "Danke, dass Sie die Erweiterung installiert haben! Befolgen Sie die einfachen Schritte unten, um Ihr neues Tab-Erlebnis zu genießen." 
+  },
+  "howToTitle": { 
+    "message": "So beginnen Sie" 
+  },
+
+  "step1Title": { 
+    "message": "Schritt 1: Neues Tab öffnen" 
+  },
+  "step1Text": { 
+    "message": "Drücken Sie Strg + T (oder Cmd + T auf dem Mac), um ein neues Browser-Tab zu öffnen. Es erscheint ein Popup mit dem 3D-Weltraum-Hintergrund." 
+  },
+  "step1Note1": { 
+    "message": "Chrome kann fragen: „Zurück zu Google wechseln?“. Dies passiert, wenn eine Erweiterung die neue Tab-Seite ändert." 
+  },
+  "keepIt": { 
+    "message": "Behalten" 
+  },
+  "step1Note2": { 
+    "message": "Klicken Sie auf die Schaltfläche „Behalten“, um die Erweiterung 3D-Weltraum-Hintergrund weiterhin zu verwenden." 
+  },
+
+  "step2Title": { 
+    "message": "Schritt 2: Fußzeile ausblenden" 
+  },
+  "step2Text": { 
+    "message": "Klicken Sie mit der rechten Maustaste auf die Fußzeile unten auf der neuen Tab-Seite." 
+  },
+  "step2Note1": { 
+    "message": "Ein Menü wird angezeigt." 
+  },
+  "step2Note2": { 
+    "message": "Klicken Sie auf „Fußzeile auf der neuen Tab-Seite ausblenden“." 
+  },
+  "step2End": { 
+    "message": "Dadurch wird die Fußzeile entfernt und Sie erhalten eine sauberere Ansicht." 
+  },
+
+  "previewTitle": { 
+    "message": "Hintergrundvorschau" 
+  },
+  "enjoyText": { 
+    "message": "Genießen Sie die Sterne jedes Mal, wenn Sie ein neues Tab öffnen. Weitere Anpassungsoptionen folgen bald!" 
+  }
+}

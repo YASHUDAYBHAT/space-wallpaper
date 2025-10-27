@@ -1,0 +1,60 @@
+{
+  "appName": { 
+    "message": "Sfondo spaziale 3D" 
+  },
+  "appDescription": { 
+    "message": "Mostra uno sfondo spaziale 3D animato con una barra di ricerca che utilizza il tuo motore di ricerca predefinito." 
+  },
+  "actionTitle": { 
+    "message": "Sfondo spaziale 3D" 
+  },
+
+  "welcomeTitle": { 
+    "message": "Benvenuto in Sfondo spaziale 3D" 
+  },
+  "welcomeDescription": { 
+    "message": "Grazie per aver installato l'estensione! Segui questi semplici passaggi per iniziare a goderti la tua nuova esperienza con la scheda." 
+  },
+  "howToTitle": { 
+    "message": "Come iniziare" 
+  },
+
+  "step1Title": { 
+    "message": "Passaggio 1: Apri una nuova scheda" 
+  },
+  "step1Text": { 
+    "message": "Premi Ctrl + T (o Cmd + T su Mac) per aprire una nuova scheda del browser. Vedrai un popup con lo sfondo spaziale 3D." 
+  },
+  "step1Note1": { 
+    "message": "Chrome potrebbe chiederti: \"Tornare a Google?\". Questo accade quando un'estensione modifica la pagina della nuova scheda." 
+  },
+  "keepIt": { 
+    "message": "Mantieni" 
+  },
+  "step1Note2": { 
+    "message": "Clicca su 'Mantieni' per continuare a usare l'estensione Sfondo spaziale 3D." 
+  },
+
+  "step2Title": { 
+    "message": "Passaggio 2: Nascondi il piè di pagina" 
+  },
+  "step2Text": { 
+    "message": "Fai clic con il tasto destro sul piè di pagina nella parte inferiore della nuova scheda." 
+  },
+  "step2Note1": { 
+    "message": "Apparirà un menu." 
+  },
+  "step2Note2": { 
+    "message": "Clicca su \"Nascondi piè di pagina nella nuova scheda\"." 
+  },
+  "step2End": { 
+    "message": "Questo rimuoverà il piè di pagina e ti darà una visuale più pulita." 
+  },
+
+  "previewTitle": { 
+    "message": "Anteprima dello sfondo" 
+  },
+  "enjoyText": { 
+    "message": "Goditi le stelle ogni volta che apri una scheda. Altre funzioni di personalizzazione arriveranno presto!" 
+  }
+}

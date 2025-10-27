@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>__MSG_welcomeTitle__</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+      padding: 60px 20px;
+      max-width: 720px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    h1 { font-weight: 700; font-size: 2.8rem; margin-bottom: 12px; color: #111827; }
+    p.lead { font-size: 1.125rem; color: #4b5563; margin-bottom: 40px; }
+    h2 { font-weight: 600; font-size: 1.8rem; color: #111827; border-bottom: 2px solid #e5e7eb; padding-bottom: 8px; margin-top: 50px; margin-bottom: 30px; }
+    ol { list-style: none; padding-left: 0; margin: 0; counter-reset: step; }
+    li {
+      position: relative; padding-left: 60px; margin-bottom: 50px;
+      font-size: 1.125rem; color: #374151;
+    }
+    li::before {
+      content: counter(step); counter-increment: step;
+      position: absolute; left: 0; top: 0; width: 42px; height: 42px;
+      background-color: #2563eb; color: white; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 1.25rem; box-shadow: 0 2px 8px rgb(37 99 235 / 0.3);
+      user-select: none;
+    }
+    strong { color: #2563eb; }
+    em { color: #6b7280; font-style: italic; }
+    kbd {
+      background-color: #e0e7ff; border-radius: 6px; padding: 4px 10px;
+      font-family: 'Segoe UI Mono', Consolas, monospace; font-size: 0.95rem;
+      color: #1e40af; user-select: text; display: inline-block;
+      margin: 0 4px; box-shadow: inset 0 -1px 0 #c7d2fe;
+      transition: background-color 0.3s ease; cursor: default;
+    }
+    kbd:hover { background-color: #3b82f6; color: white; box-shadow: none; }
+    .step-image, img.preview {
+      border-radius: 12px; width: 100%; height: auto; user-select: none;
+      box-shadow: 0 6px 18px rgb(37 99 235 / 0.25);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .step-image:hover, img.preview:hover {
+      transform: scale(1.04); box-shadow: 0 8px 28px rgb(37 99 235 / 0.4);
+    }
+    .btn-highlight {
+      display: inline-block; background-color: #2563eb; color: white;
+      padding: 6px 16px; border-radius: 6px; font-weight: 600;
+      text-decoration: none; box-shadow: 0 4px 12px rgb(37 99 235 / 0.4);
+      transition: background-color 0.3s ease;
+    }
+    .btn-highlight:hover {
+      background-color: #1d4ed8; box-shadow: 0 6px 18px rgb(29 78 216 / 0.5);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>__MSG_welcomeTitle__</h1>
+
+  <p class="lead">__MSG_welcomeDescription__</p>
+
+  <h2>__MSG_howToTitle__</h2>
+  <ol>
+    <li>
+      <strong>__MSG_step1Title__</strong><br />
+      __MSG_step1Text__<br /><br />
+      👉 __MSG_step1Note1__<br /><br />
+      👉 <span class="btn-highlight">__MSG_keepIt__</span> __MSG_step1Note2__<br /><br />
+      <img src="icons/thumb01.png" alt="Step 1" class="step-image" />
+    </li>
+
+    <li>
+      <strong>__MSG_step2Title__</strong><br />
+      __MSG_step2Text__<br /><br />
+      👉 __MSG_step2Note1__<br />
+      👉 __MSG_step2Note2__<br /><br />
+      __MSG_step2End__<br /><br />
+      <img src="icons/thumb02.png" alt="Step 2" class="step-image" />
+    </li>
+  </ol>
+
+  <h2>__MSG_previewTitle__</h2>
+  <img src="icons/preview.png" alt="Wallpaper Preview" class="preview" />
+
+  <p>__MSG_enjoyText__</p>
+
+  <!-- ✅ External script instead of inline -->
+  <script src="setup.js"></script>
+</body>
+</html>

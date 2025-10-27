@@ -1,0 +1,60 @@
+{
+  "appName": { 
+    "message": "3D太空壁纸" 
+  },
+  "appDescription": { 
+    "message": "显示带有搜索栏的3D太空动态壁纸，使用您的默认搜索引擎。" 
+  },
+  "actionTitle": { 
+    "message": "太空壁纸" 
+  },
+
+  "welcomeTitle": { 
+    "message": "欢迎使用 3D 太空壁纸" 
+  },
+  "welcomeDescription": { 
+    "message": "感谢您安装此扩展程序！按照以下简单步骤开始享受全新的标签页体验。" 
+  },
+  "howToTitle": { 
+    "message": "使用指南" 
+  },
+
+  "step1Title": { 
+    "message": "步骤 1：打开新标签页" 
+  },
+  "step1Text": { 
+    "message": "按 Ctrl + T（或在 Mac 上按 Cmd + T）打开一个新的浏览器标签页。您将看到 3D 太空壁纸的弹出窗口。" 
+  },
+  "step1Note1": { 
+    "message": "Chrome 可能会询问：“要改回 Google 吗？”。这是因为扩展程序修改了新标签页。" 
+  },
+  "keepIt": { 
+    "message": "保留" 
+  },
+  "step1Note2": { 
+    "message": "点击“保留”按钮以继续使用 3D 太空壁纸扩展程序。" 
+  },
+
+  "step2Title": { 
+    "message": "步骤 2：隐藏底部栏" 
+  },
+  "step2Text": { 
+    "message": "在新标签页底部的页脚上右键单击。" 
+  },
+  "step2Note1": { 
+    "message": "将会弹出一个菜单。" 
+  },
+  "step2Note2": { 
+    "message": "点击“在新标签页上隐藏页脚”。" 
+  },
+  "step2End": { 
+    "message": "这样可以移除页脚，让界面更加简洁。" 
+  },
+
+  "previewTitle": { 
+    "message": "壁纸预览" 
+  },
+  "enjoyText": { 
+    "message": "每次打开新标签页时，都能欣赏到浩瀚的星空。更多自定义功能即将推出！" 
+  }
+}

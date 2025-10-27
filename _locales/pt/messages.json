@@ -1,0 +1,60 @@
+{
+  "appName": { 
+    "message": "Papel de parede espacial 3D" 
+  },
+  "appDescription": { 
+    "message": "Mostra um papel de parede espacial 3D animado com uma barra de pesquisa que usa seu mecanismo de pesquisa padrão." 
+  },
+  "actionTitle": { 
+    "message": "Papel de parede 3D" 
+  },
+
+  "welcomeTitle": { 
+    "message": "Bem-vindo ao Papel de Parede Espacial 3D" 
+  },
+  "welcomeDescription": { 
+    "message": "Obrigado por instalar a extensão! Siga as etapas simples abaixo para começar a aproveitar sua nova experiência de guia." 
+  },
+  "howToTitle": { 
+    "message": "Como começar" 
+  },
+
+  "step1Title": { 
+    "message": "Etapa 1: Abra uma nova guia" 
+  },
+  "step1Text": { 
+    "message": "Pressione Ctrl + T (ou Cmd + T no Mac) para abrir uma nova guia do navegador. Você verá um pop-up com o Papel de Parede Espacial 3D." 
+  },
+  "step1Note1": { 
+    "message": "O Chrome pode perguntar: 'Voltar para o Google?'. Isso acontece quando uma extensão altera a página da nova guia." 
+  },
+  "keepIt": { 
+    "message": "Manter" 
+  },
+  "step1Note2": { 
+    "message": "Clique no botão 'Manter' para continuar usando a extensão Papel de Parede Espacial 3D." 
+  },
+
+  "step2Title": { 
+    "message": "Etapa 2: Ocultar o rodapé" 
+  },
+  "step2Text": { 
+    "message": "Clique com o botão direito no rodapé na parte inferior da nova guia." 
+  },
+  "step2Note1": { 
+    "message": "Um menu aparecerá." 
+  },
+  "step2Note2": { 
+    "message": "Clique em 'Ocultar rodapé na página Nova guia'." 
+  },
+  "step2End": { 
+    "message": "Isso removerá o rodapé e proporcionará uma visualização mais limpa." 
+  },
+
+  "previewTitle": { 
+    "message": "Pré-visualização do papel de parede" 
+  },
+  "enjoyText": { 
+    "message": "Aprecie as estrelas sempre que abrir uma nova guia. Mais recursos de personalização em breve!" 
+  }
+}

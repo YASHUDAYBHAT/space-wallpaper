@@ -1,0 +1,60 @@
+{
+  "appName": { 
+    "message": "3Dスペース壁紙" 
+  },
+  "appDescription": { 
+    "message": "デフォルトの検索エンジンを使用する検索バー付きの3Dスペースライブ壁紙を表示します。" 
+  },
+  "actionTitle": { 
+    "message": "スペース壁紙" 
+  },
+
+  "welcomeTitle": { 
+    "message": "3Dスペース壁紙へようこそ" 
+  },
+  "welcomeDescription": { 
+    "message": "拡張機能をインストールしていただきありがとうございます！以下の簡単な手順に従って、新しいタブ体験をお楽しみください。" 
+  },
+  "howToTitle": { 
+    "message": "使い方" 
+  },
+
+  "step1Title": { 
+    "message": "ステップ1: 新しいタブを開く" 
+  },
+  "step1Text": { 
+    "message": "Ctrl + T（またはMacではCmd + T）を押して新しいブラウザタブを開きます。3Dスペース壁紙のポップアップが表示されます。" 
+  },
+  "step1Note1": { 
+    "message": "Chromeが「Googleに戻しますか？」と尋ねる場合があります。これは拡張機能が新しいタブページを変更したときに表示されます。" 
+  },
+  "keepIt": { 
+    "message": "維持する" 
+  },
+  "step1Note2": { 
+    "message": "「維持する」ボタンをクリックして、3Dスペース壁紙拡張機能を使用し続けます。" 
+  },
+
+  "step2Title": { 
+    "message": "ステップ2: フッターを非表示にする" 
+  },
+  "step2Text": { 
+    "message": "新しいタブページの下部にあるフッターを右クリックします。" 
+  },
+  "step2Note1": { 
+    "message": "メニューが表示されます。" 
+  },
+  "step2Note2": { 
+    "message": "「新しいタブページでフッターを非表示」をクリックします。" 
+  },
+  "step2End": { 
+    "message": "これでフッターが削除され、よりクリーンな表示になります。" 
+  },
+
+  "previewTitle": { 
+    "message": "壁紙プレビュー" 
+  },
+  "enjoyText": { 
+    "message": "タブを開くたびに星々をお楽しみください。今後、さらにカスタマイズ機能が追加されます！" 
+  }
+}

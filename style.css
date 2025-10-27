@@ -1,0 +1,159 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: black;
+}
+
+#wallpaper-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Hide brand title and search container initially to avoid flicker */
+#brand-title,
+#search-container {
+  display: none;
+}
+
+/* === Dynamic Browser Name Title === */
+/* Position brand title */
+#brand-title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 272px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: 500;
+  color: white;
+  z-index: 10;
+  user-select: none;
+  font-family: 'Product Sans', Arial, sans-serif;
+}
+
+@keyframes earthColors {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+#brand-title:hover {
+  background: linear-gradient(
+    90deg,
+    #1e3c72,
+    #00bfff,
+    #2e8b57,
+    #8b4513,
+    #c2b280,
+    #ffffff,
+    #00bfff,
+    #1e3c72
+  );
+  background-size: 300% 300%;
+  animation: earthColors 6s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 12px rgba(0, 191, 255, 0.5);
+  cursor: pointer;
+}
+
+/* === Search Box Container === */
+#search-container {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* === Search Form and Input === */
+#search-form {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  width: 746px;
+  height: 48px;
+  padding: 0 10px;
+}
+
+#input {
+  flex: 1;
+  height: 100%;
+  padding: 0 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 24px;
+  background-color: transparent;
+}
+
+#input:focus {
+  box-shadow: none;
+}
+
+/* === Voice Search Mic Button === */
+#mic-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #5f6368;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0;
+  height: 24px;
+  width: 24px;
+}
+
+/* === Suggestions Dropdown === */
+#suggestions {
+  position: absolute;
+  top: calc(40% + 56px); /* just below the search bar */
+  width: 746px;
+  max-height: 200px;
+  background: white;
+  border: 1px solid #dcdcdc;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 6px rgba(32,33,36,0.28);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  z-index: 2;
+  display: none;
+}
+
+#suggestions li {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#suggestions li:hover {
+  background-color: #f1f3f4;
+}
+
+img {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}

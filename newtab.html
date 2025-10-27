@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>New Tab</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Hide Brave UI elements if they appear */
+    #braveCustomizeButton,
+    #braveTitle,
+    .brave-new-tab-overlay {
+      display: none !important;
+    }
+
+    /* Hide search UI initially to avoid flicker */
+    #brand-title,
+    #search-container {
+      display: none;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      background-color: black;
+    }
+
+    #wallpaper-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: block;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    #brand-title {
+      position: absolute;
+      top: 20%;
+      width: 100%;
+      text-align: center;
+      font-size: 64px;
+      font-weight: 500;
+      color: white;
+      z-index: 10;
+      user-select: none;
+      font-family: 'Product Sans', Arial, sans-serif;
+    }
+
+    #search-container {
+      position: absolute;
+      top: 40%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    #search-form {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border-radius: 24px;
+      box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+      width: 746px;
+      height: 48px;
+      padding: 0 10px;
+    }
+
+    #input {
+      flex: 1;
+      height: 100%;
+      padding: 0 15px;
+      font-size: 16px;
+      border: none;
+      outline: none;
+      border-radius: 24px;
+      background-color: transparent;
+    }
+
+    #mic-button {
+      background: none;
+      border: none;
+      font-size: 20px;
+      color: #5f6368;
+      cursor: pointer;
+      margin-left: 10px;
+      padding: 0;
+      height: 24px;
+      width: 24px;
+    }
+
+    #suggestions {
+      position: absolute;
+      top: calc(40% + 56px);
+      width: 746px;
+      max-height: 200px;
+      background: white;
+      border: 1px solid #dcdcdc;
+      border-radius: 0 0 8px 8px;
+      box-shadow: 0 2px 6px rgba(32, 33, 36, 0.28);
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow-y: auto;
+      z-index: 11;
+      display: none;
+    }
+
+    #suggestions li {
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    #suggestions li:hover {
+      background-color: #f1f3f4;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="wallpaper-canvas"></canvas>
+
+  <div id="brand-title">Google</div>
+
+  <div id="search-container">
+    <form id="search-form" autocomplete="off">
+      <input
+        id="input"
+        type="search"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="Search or type a URL"
+        name="q"
+      />
+      <button type="button" id="mic-button" aria-label="Voice Search"></button>
+    </form>
+    <ul id="suggestions"></ul>
+  </div>
+
+  <!-- Load external JS (no inline) -->
+  <script type="module" src="newtab.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

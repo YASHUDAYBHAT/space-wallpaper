@@ -1,0 +1,60 @@
+{
+  "appName": {
+    "message": "3D Space Wallpaper"
+  },
+  "appDescription": {
+    "message": "Shows a 3D space live wallpaper with a search bar that uses your default search engine."
+  },
+  "actionTitle": {
+    "message": "3D Space Wallpaper"
+  },
+
+  "welcomeTitle": {
+    "message": "Welcome to 3D Space Wallpaper"
+  },
+  "welcomeDescription": {
+    "message": "Thank you for installing the extension! Follow these simple steps below to start enjoying your new tab experience:"
+  },
+  "howToTitle": {
+    "message": "How to Get Started"
+  },
+
+  "step1Title": {
+    "message": "Step 1: Open a new tab"
+  },
+  "step1Text": {
+    "message": "Press Ctrl + T (or Cmd + T on Mac) to open a new browser tab. You'll see a popup with the 3D Space Wallpaper."
+  },
+  "step1Note1": {
+    "message": "Chrome might ask: \"Change back to Google?\". This happens when an extension updates the new tab page."
+  },
+  "keepIt": {
+    "message": "Keep it"
+  },
+  "step1Note2": {
+    "message": "to continue using the 3D Space Wallpaper extension."
+  },
+
+  "step2Title": {
+    "message": "Step 2: Hide the footer"
+  },
+  "step2Text": {
+    "message": "Right-click on the footer at the bottom of the new tab page."
+  },
+  "step2Note1": {
+    "message": "A menu will pop up."
+  },
+  "step2Note2": {
+    "message": "Click “Hide footer on New Tab page”."
+  },
+  "step2End": {
+    "message": "This will remove the footer and give you a cleaner view."
+  },
+
+  "previewTitle": {
+    "message": "Wallpaper Preview"
+  },
+  "enjoyText": {
+    "message": "Enjoy the stars every time you open a tab. More customization features are coming soon!"
+  }
+}

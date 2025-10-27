@@ -1,0 +1,60 @@
+{
+  "appName": { 
+    "message": "3D 우주 배경화면" 
+  },
+  "appDescription": { 
+    "message": "기본 검색 엔진을 사용하는 검색 창이 포함된 3D 우주 라이브 배경화면을 표시합니다." 
+  },
+  "actionTitle": { 
+    "message": "우주 배경화면" 
+  },
+
+  "welcomeTitle": { 
+    "message": "3D 우주 배경화면에 오신 것을 환영합니다" 
+  },
+  "welcomeDescription": { 
+    "message": "확장 프로그램을 설치해 주셔서 감사합니다! 아래의 간단한 단계를 따라 새로운 탭 환경을 즐겨보세요." 
+  },
+  "howToTitle": { 
+    "message": "시작하는 방법" 
+  },
+
+  "step1Title": { 
+    "message": "1단계: 새 탭 열기" 
+  },
+  "step1Text": { 
+    "message": "Ctrl + T(또는 Mac에서는 Cmd + T)를 눌러 새 브라우저 탭을 엽니다. 3D 우주 배경화면 팝업이 표시됩니다." 
+  },
+  "step1Note1": { 
+    "message": "Chrome에서 'Google로 다시 변경하시겠습니까?'라는 메시지가 나타날 수 있습니다. 이는 확장 프로그램이 새 탭 페이지를 변경할 때 발생합니다." 
+  },
+  "keepIt": { 
+    "message": "유지하기" 
+  },
+  "step1Note2": { 
+    "message": "'유지하기' 버튼을 클릭하여 3D 우주 배경화면 확장 프로그램을 계속 사용하세요." 
+  },
+
+  "step2Title": { 
+    "message": "2단계: 푸터 숨기기" 
+  },
+  "step2Text": { 
+    "message": "새 탭 페이지 하단의 푸터를 마우스 오른쪽 버튼으로 클릭하세요." 
+  },
+  "step2Note1": { 
+    "message": "메뉴가 나타납니다." 
+  },
+  "step2Note2": { 
+    "message": "‘새 탭 페이지에서 푸터 숨기기’를 클릭하세요." 
+  },
+  "step2End": { 
+    "message": "이제 푸터가 제거되어 더 깔끔한 화면을 볼 수 있습니다." 
+  },
+
+  "previewTitle": { 
+    "message": "배경화면 미리보기" 
+  },
+  "enjoyText": { 
+    "message": "탭을 열 때마다 별들을 감상해 보세요. 더 많은 사용자 정의 기능이 곧 추가됩니다!" 
+  }
+}

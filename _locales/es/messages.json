@@ -1,0 +1,60 @@
+{
+  "appName": {
+    "message": "Fondo de pantalla espacial 3D"
+  },
+  "appDescription": {
+    "message": "Muestra un fondo de pantalla en vivo en 3D con una barra de búsqueda que usa tu motor de búsqueda predeterminado."
+  },
+  "actionTitle": {
+    "message": "Fondo espacial 3D"
+  },
+
+  "welcomeTitle": {
+    "message": "Bienvenido a Fondo de pantalla espacial 3D"
+  },
+  "welcomeDescription": {
+    "message": "¡Gracias por instalar la extensión! Sigue estos sencillos pasos a continuación para comenzar a disfrutar tu nueva experiencia de pestaña."
+  },
+  "howToTitle": {
+    "message": "Cómo empezar"
+  },
+
+  "step1Title": {
+    "message": "Paso 1: Abre una nueva pestaña"
+  },
+  "step1Text": {
+    "message": "Presiona Ctrl + T (o Cmd + T en Mac) para abrir una nueva pestaña del navegador. Verás una ventana emergente con el Fondo de pantalla espacial 3D."
+  },
+  "step1Note1": {
+    "message": "Chrome puede preguntar: \"¿Volver a Google?\". Esto sucede cuando una extensión actualiza la página de nueva pestaña."
+  },
+  "keepIt": {
+    "message": "Mantenerlo"
+  },
+  "step1Note2": {
+    "message": "para seguir usando la extensión Fondo de pantalla espacial 3D."
+  },
+
+  "step2Title": {
+    "message": "Paso 2: Oculta el pie de página"
+  },
+  "step2Text": {
+    "message": "Haz clic derecho en el pie de página en la parte inferior de la página de nueva pestaña."
+  },
+  "step2Note1": {
+    "message": "Aparecerá un menú."
+  },
+  "step2Note2": {
+    "message": "Haz clic en “Ocultar pie de página en la página de nueva pestaña”."
+  },
+  "step2End": {
+    "message": "Esto eliminará el pie de página y te dará una vista más limpia."
+  },
+
+  "previewTitle": {
+    "message": "Vista previa del fondo de pantalla"
+  },
+  "enjoyText": {
+    "message": "Disfruta de las estrellas cada vez que abras una pestaña. ¡Pronto llegarán más funciones de personalización!"
+  }
+}

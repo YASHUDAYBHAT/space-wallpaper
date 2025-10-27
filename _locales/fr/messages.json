@@ -1,0 +1,60 @@
+{
+  "appName": {
+    "message": "Fond d'écran spatial 3D"
+  },
+  "appDescription": {
+    "message": "Affiche un fond d'écran spatial 3D animé avec une barre de recherche utilisant votre moteur de recherche par défaut."
+  },
+  "actionTitle": {
+    "message": "Fond spatial 3D"
+  },
+
+  "welcomeTitle": {
+    "message": "Bienvenue dans Fond d'écran spatial 3D"
+  },
+  "welcomeDescription": {
+    "message": "Merci d’avoir installé l’extension ! Suivez les étapes simples ci-dessous pour commencer à profiter de votre nouvelle expérience d’onglet."
+  },
+  "howToTitle": {
+    "message": "Comment commencer"
+  },
+
+  "step1Title": {
+    "message": "Étape 1 : Ouvrir un nouvel onglet"
+  },
+  "step1Text": {
+    "message": "Appuyez sur Ctrl + T (ou Cmd + T sur Mac) pour ouvrir un nouvel onglet du navigateur. Une fenêtre contextuelle avec le fond d'écran spatial 3D apparaîtra."
+  },
+  "step1Note1": {
+    "message": "Chrome peut demander : « Revenir à Google ? ». Cela se produit lorsqu’une extension met à jour la page du nouvel onglet."
+  },
+  "keepIt": {
+    "message": "Conserver"
+  },
+  "step1Note2": {
+    "message": "pour continuer à utiliser l’extension Fond d'écran spatial 3D."
+  },
+
+  "step2Title": {
+    "message": "Étape 2 : Masquer le pied de page"
+  },
+  "step2Text": {
+    "message": "Faites un clic droit sur le pied de page en bas de la page du nouvel onglet."
+  },
+  "step2Note1": {
+    "message": "Un menu apparaîtra."
+  },
+  "step2Note2": {
+    "message": "Cliquez sur « Masquer le pied de page sur la page du nouvel onglet »."
+  },
+  "step2End": {
+    "message": "Cela supprimera le pied de page et vous offrira une vue plus épurée."
+  },
+
+  "previewTitle": {
+    "message": "Aperçu du fond d'écran"
+  },
+  "enjoyText": {
+    "message": "Profitez des étoiles chaque fois que vous ouvrez un onglet. D'autres options de personnalisation arriveront bientôt !"
+  }
+}
